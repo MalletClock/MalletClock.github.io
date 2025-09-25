@@ -72,6 +72,16 @@ input, select, textarea {
 	appearance: none;
 }
 
+.grid-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.grid-header{
+    grid-column: 1/-1;
+    text-align: center;
+    margin-bottom: 20px;
+}
 
 /* Additions */
 
@@ -2308,6 +2318,13 @@ input, select, textarea {
 				background-position: center center;
 			}
 
+            #main > section.banner {
+            padding: 10em 0;
+            background-size: contain;
+            background-position: center top;
+            background-repeat: no-repeat;
+            }
+
 			#main > section.one {
 				background-color: #81918E;
 				background-image: url("../../images/banner.jpg");
@@ -2324,6 +2341,31 @@ input, select, textarea {
 			#main > section.four {
 				background-color: #e8edec;
 			}
+
+            #main > section.winmind {
+                background-color: #e8edec;
+                background-image: url("../../images/WinMindBannerAppStore.png");
+            }
+            #main > section.lennu {
+                background-color: #e8edec;
+                background-image: url("../../images/lennubanner.png");
+            }
+            #main > section.hearthbound {
+                background-color: #e8edec;
+                background-image: url("../../images/hearthboundbanner.png");
+            }
+            #main > section.fff {
+                background-color: #e8edec;
+                background-image: url("../../images/fff.png");
+            }
+            #main > section.charactercontroller {
+                background-color: #e8edec;
+                background-image: url("../../images/ccgbanner.png");
+            }
+            #main > section.wohnjick {
+                background-color: #e8edec;
+                background-image: url("../../images/wj.png");
+            }
 
 /* Wide */
 
